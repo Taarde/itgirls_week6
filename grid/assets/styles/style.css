@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-rows: 100px 600px 150px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.header {
+    background-color: grey;
+    grid-column: 1/3;
+}
+.main {
+
+}
+.footer {
+    background-color: grey;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.section-main {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.aside {
+    background-color: lightgreen;
+}
+.section-footer {
+    background-color: white;
+    margin: 20px;
+}
+.extra {
+    background-color: coral;
+    grid-row-start: 3;
+}
+
+.extra:last-child {
+    grid-row-start: 4;
+    grid-column: 1/3;
+}
