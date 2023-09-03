@@ -1,0 +1,123 @@
+body {
+    background: #E9F1F9;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: 80px 80px 780px 260px 370px 640px;
+    gap: 30px;
+    font-family: 'Raleway', sans-serif;
+    align-items: end;
+    align-content: center;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    color: #000;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+button, .btn {
+    display: block;
+    width: 282px;
+    height: 72px;
+    border: 1px solid black;
+    border-radius: 40px;
+    text-align: center;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: 153.5%; /* 49.12px */
+}
+.select {
+    background: rgba(0, 0, 0, 0.07);
+    border: 0px;
+    color: #535353;
+text-align: center;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 153.5%
+}
+
+.fashion .select {
+background: #25A9C6;
+color: #fff
+}
+.contact_link {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__main {
+    grid-column: 1/4;
+    text-align: center;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 153.5%; /* 49.12px */
+}
+
+
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+   list-style: none;
+   padding-right: 69px;
+}
+
+.contact{
+    align-self: center;
+}
+
+.capture, .discover {
+    align-self: flex-start;
+} 
+
+.number {
+width: 80px;
+height: 80px;
+border: 1px solid black;
+border-radius: 50%;
+}
+
+.number__text {
+    color: #000;
+text-align: center;
+font-family: Raleway;
+font-size: 48px;
+font-style: normal;
+font-weight: 300;
+line-height: 153.5%; /* 73.68px */
+}
+
+.capture_text {
+    margin: 0 auto;
+    width: 168px;
+}
+
+.discover_text {
+    width: 221px;
+    margin: 0 auto;
+}
